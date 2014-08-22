@@ -5,7 +5,6 @@ from requests import get
 from fabric.api import settings, run, env
 
 user = 'root'
-password = 'AuthApigee!'
 
 mgmt_port = 8080
 router_port = 8081

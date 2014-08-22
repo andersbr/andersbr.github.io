@@ -45,7 +45,6 @@ print mp_results
 #from fabric.api import settings, run, env
 
 #user = 'root'
-#password = 'AuthApigee!'
 env.hosts = ['15.184.35.217','15.184.35.226','15.184.35.236'] 
 
 def local_router_check():
